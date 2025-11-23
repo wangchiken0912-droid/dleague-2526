@@ -1,0 +1,11 @@
+{
+  "schedule": [
+    { "teamA": "Team A", "teamB": "Team B", "date": "2025/01/01", "field": "台南球場" },
+    { "teamA": "Team C", "teamB": "Team D", "date": "2025/01/01", "field": "台南球場" }
+  ],
+  "standings": [
+    { "team": "Team A", "points": 6 },
+    { "team": "Team B", "points": 3 },
+    { "team": "Team C", "points": 1 }
+  ]
+}
