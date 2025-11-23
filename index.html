@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <title>D LEAGUE｜台南夢達七人足球聯賽 25/26</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tailwind CDN（不用安裝任何東西） -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-950 text-gray-50">
+    <!-- 頂部導覽列 -->
+    <header class="border-b border-gray-800 bg-gray-900/90 sticky top-0 z-10">
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <div class="flex items-center space-x-3">
+          <img
+            src="https://cdn.store-assets.com/s/783745/f/15291800.png"
+            alt="D LEAGUE Logo"
+            class="h-10 w-10 rounded-md bg-gray-900 object-contain"
+          />
+          <div>
+            <div class="text-sm font-bold">
+              D LEAGUE｜台南夢達七人足球聯賽 25/26
+            </div>
+            <div class="text-xs text-gray-400">
+              Tainan 7-a-side Football League
+            </div>
+          </div>
+        </div>
+        <nav class="hidden sm:flex space-x-4 text-xs font-medium">
+          <a href="#top" class="hover:text-green-400">首頁</a>
+          <a href="#fixtures" class="hover:text-green-400">賽程 & 成績</a>
+          <a href="#clubs" class="hover:text-green-400">參賽球隊</a>
+          <a href="#info" class="hover:text-green-400">聯賽資訊</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="max-w-6xl mx-auto px-4 py-6 space-y-8">
+      <!-- Hero 區：聯賽資訊 + 下一場比賽 -->
+      <section
+        class="bg-gradient-to-br from-gray-900 to-gray-950 border border-gray-800 rounded-2xl p-5 mt-2"
+      >
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-6 lg:space-y-0">
+          <div class="space-y-3">
+            <p class="text-xs uppercase tracking-widest text-green-400 font-semibold">
+              Regular Season 25/26
+            </p>
+            <h1 class="text-2xl sm:text-3xl font-bold">
+              D LEAGUE｜台南夢達七人足球聯賽 25/26
+            </h1>
+            <p class="text-sm text-gray-300">
+              比賽地點：台南仁德文賢國中人工草 · 組別：L1（4 隊）、L2（6 隊）
+            </p>
+            <p class="text-xs text-gray-400">
+              賽制：Regular Season · 單循環（依你之後規劃可再補充）
+            </p>
+          </div>
+
+          <!-- 下一場比賽：取 2025/10/19 10:00 L2 第一場 -->
+          <div
+            class="bg-gray-900 border border-gray-700 rounded-xl p-4 w-full lg:w-80"
+          >
+            <p class="text-xs font-semibold text-gray-400 uppercase tracking-widest">
+              Next Match
+            </p>
+            <p class="mt-1 text-sm text-gray-200">
+              2025/10/19（日）10:00 · L2 第 1 輪
+            </p>
+            <p class="text-xs text-gray-400">台南仁德文賢國中人工草</p>
+
+            <div class="mt-3 flex items-center justify-between">
+              <div class="text-left">
+                <div class="text-xs text-gray-400">主隊</div>
+                <div class="text-sm font-semibold">鹿逐俱樂部</div>
+              </div>
+              <div class="text-xs text-gray-400">VS</div>
+              <div class="text-right">
+                <div class="text-xs text-gray-400">客隊</div>
+                <div class="text-sm font-semibold">屏東野猿足球俱樂部</div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex space-x-2 text-xs">
+              <a
+                href="#fixtures"
+                class="flex-1 text-center bg-green-500 text-gray-900 font-semibold py-1.5 rounded-full hover:bg-green-400"
+              >
+                查看完整賽程
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 賽程區塊 -->
+      <section id="fixtures" class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h2 class="text-lg font-bold">賽程 & 成績</h2>
+          <p class="text-xs text-gray-400">
+            賽季：2025/10/19 ～ 2026/04/26 · 場地：台南仁德文賢國中人工草
+          </p>
+        </div>
+
+        <div class="overflow-x-auto border border-gray-800 rounded-2xl">
+          <table class="min-w-full text-xs sm:text-sm">
+            <thead class="bg-gray-900">
+              <tr class="text-left text-gray-300">
+                <th class="px-3 py-2">日期</th>
+                <th class="px-3 py-2">時間</th>
+                <th class="px-3 py-2">組別</th>
+                <th class="px-3 py-2">輪次</th>
+                <th class="px-3 py-2">主隊</th>
+                <th class="px-3 py-2 text-center">成績</th>
+                <th class="px-3 py-2">客隊</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-800">
+              <!-- 2025/10/19 -->
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2 align-top" rowspan="5">2025/10/19</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">1</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">1</td>
+                <td class="px-3 py-2">瘋Dog</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">1</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">1</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">陳公舘</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">1</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+              </tr>
+
+              <!-- 2025/11/02 -->
+              <tr>
+                <td class="px-3 py-2 align-top" rowspan="4">2025/11/02</td>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">2</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">陳公舘</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">2</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">2</td>
+                <td class="px-3 py-2">瘋Dog</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">16:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">2</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+              </tr>
+
+              <!-- 2025/11/16 -->
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2 align-top" rowspan="4">2025/11/16</td>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">3</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">3</td>
+                <td class="px-3 py-2">瘋Dog</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">2</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">16:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">3</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+              </tr>
+
+              <!-- 2025/12/07 -->
+              <tr>
+                <td class="px-3 py-2 align-top" rowspan="5">2025/12/07</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">4</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">4</td>
+                <td class="px-3 py-2">瘋Dog</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">3</td>
+                <td class="px-3 py-2">陳公舘</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">3</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">4</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+              </tr>
+
+              <!-- 2026/01/11 -->
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2 align-top" rowspan="5">2026/01/11</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">4</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">4</td>
+                <td class="px-3 py-2">陳公舘</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">5</td>
+                <td class="px-3 py-2">瘋Dog</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">5</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">5</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+              </tr>
+
+              <!-- 2026/02/08 -->
+              <tr>
+                <td class="px-3 py-2 align-top" rowspan="5">2026/02/08</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">6</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">6</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">瘋Dog</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">6</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">5</td>
+                <td class="px-3 py-2">陳公舘</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">5</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+              </tr>
+
+              <!-- 2026/03/08 -->
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2 align-top" rowspan="5">2026/03/08</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">6</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">陳公舘</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">6</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">7</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">瘋Dog</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">7</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">7</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+              </tr>
+
+              <!-- 2026/03/22 -->
+              <tr>
+                <td class="px-3 py-2 align-top" rowspan="5">2026/03/22</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">8</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">8</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">7</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">陳公舘</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">7</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">8</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">瘋Dog</td>
+              </tr>
+
+              <!-- 2026/04/12 -->
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2 align-top" rowspan="5">2026/04/12</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">9</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">瘋Dog</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">8</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">8</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">陳公舘</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">9</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+              </tr>
+              <tr class="bg-gray-900/40">
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">9</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+              </tr>
+
+              <!-- 2026/04/26 -->
+              <tr>
+                <td class="px-3 py-2 align-top" rowspan="5">2026/04/26</td>
+                <td class="px-3 py-2">10:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">10</td>
+                <td class="px-3 py-2">PPI TAINAN FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">瘋Dog</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">11:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">10</td>
+                <td class="px-3 py-2">蒼龍FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">鹿逐俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">13:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">9</td>
+                <td class="px-3 py-2">嘉義諸羅山FC</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">銅雀足球俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">14:00</td>
+                <td class="px-3 py-2">L2</td>
+                <td class="px-3 py-2">10</td>
+                <td class="px-3 py-2">鳥仕足球俱樂部</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">屏東野猿足球俱樂部</td>
+              </tr>
+              <tr>
+                <td class="px-3 py-2">15:00</td>
+                <td class="px-3 py-2">L1</td>
+                <td class="px-3 py-2">9</td>
+                <td class="px-3 py-2">陳公舘</td>
+                <td class="px-3 py-2 text-center text-gray-500">–</td>
+                <td class="px-3 py-2">酒號矯正署</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-2 text-xs text-gray-400">
+          備註：季中轉會窗 2026/01/11–2026/02/05 · 賽季結束：2026/04/26
+        </p>
+      </section>
+
+      <!-- 球隊區塊 -->
+      <section id="clubs" class="space-y-3">
+        <h2 class="text-lg font-bold">參賽球隊</h2>
+        <p class="text-xs text-gray-400">
+          L1：嘉義諸羅山FC、酒號矯正署、銅雀足球俱樂部、陳公舘 · L2：鹿逐俱樂部、屏東野猿足球俱樂部、瘋Dog、蒼龍FC、PPI TAINAN FC、鳥仕足球俱樂部
+        </p>
+
+        <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- 每隊一張卡片 -->
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#90d1d2,#0e3679);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146068.png"
+                alt="嘉義諸羅山FC"
+                class="h-8 w-8 object-contain rounded-full"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">嘉義諸羅山FC</div>
+              <div class="text-xs text-gray-400">L1 · 主色：#90d1d2 / #0e3679</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#000000,#ffffff);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146063.png"
+                alt="酒號矯正署"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">酒號矯正署</div>
+              <div class="text-xs text-gray-400">L1 · 主色：#000000 / #ffffff</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#2a2b30,#ffffff);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146064.png"
+                alt="銅雀足球俱樂部"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">銅雀足球俱樂部</div>
+              <div class="text-xs text-gray-400">L1 · 主色：#2a2b30 / #ffffff</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#000000,#8ac4e1);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146061.png"
+                alt="陳公舘"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">陳公舘</div>
+              <div class="text-xs text-gray-400">L1 · 主色：#000000 / #8ac4e1</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#385984,#ffffff);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146059.png"
+                alt="鹿逐俱樂部"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">鹿逐俱樂部</div>
+              <div class="text-xs text-gray-400">L2 · 主色：#385984 / #ffffff</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#563e92,#ffffff);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146062.png"
+                alt="屏東野猿足球俱樂部"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">屏東野猿足球俱樂部</div>
+              <div class="text-xs text-gray-400">L2 · 主色：#563e92 / #ffffff</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#ed8992,#000000);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146067.png"
+                alt="瘋Dog"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">瘋Dog</div>
+              <div class="text-xs text-gray-400">L2 · 主色：#ed8992 / #000000</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background:#2f4d4f;"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146060.png"
+                alt="鳥仕足球俱樂部"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">鳥仕足球俱樂部</div>
+              <div class="text-xs text-gray-400">L2 · 主色：#2f4d4f</div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#004026,#ffffff);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146066.png"
+                alt="PPI TAINAN FC"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">PPI TAINAN FC</div>
+              <div class="text-xs text-gray-400">
+                L2 · 主色：#004026 / #ffffff / #000000
+              </div>
+            </div>
+          </div>
+
+          <div class="border border-gray-800 rounded-xl p-3 flex items-center space-x-3 bg-gray-900/60">
+            <div
+              class="h-10 w-10 rounded-full flex items-center justify-center"
+              style="background: linear-gradient(135deg,#0c2450,#000000);"
+            >
+              <img
+                src="https://cdn.store-assets.com/s/783745/f/16146065.png"
+                alt="蒼龍FC"
+                class="h-8 w-8 object-contain rounded-full bg-white"
+              />
+            </div>
+            <div>
+              <div class="text-sm font-semibold">蒼龍FC</div>
+              <div class="text-xs text-gray-400">
+                L2 · 主色：#0c2450 / 黑 + 白
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 聯賽資訊 -->
+      <section id="info" class="space-y-3">
+        <h2 class="text-lg font-bold">聯賽資訊</h2>
+        <div class="border border-gray-800 rounded-2xl p-4 bg-gray-900/60 text-sm space-y-2">
+          <p>聯賽名稱：D LEAGUE｜台南夢達七人足球聯賽 25/26</p>
+          <p>賽季：2025 年 10 月 19 日 ～ 2026 年 4 月 26 日</p>
+          <p>組別：L1（4 隊）、L2（6 隊）</p>
+          <p>比賽地點：台南仁德文賢國中人工草</p>
+          <p>賽事階段：Regular Season</p>
+          <p>季中轉會窗：2026/01/11 ～ 2026/02/05</p>
+          <p class="text-xs text-gray-400">
+            ※ 更多賽制細節、規章、轉會規定，可之後補上專頁或 PDF 連結。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-800 bg-gray-900/90 mt-8">
+      <div class="max-w-6xl mx-auto px-4 py-4 text-xs text-gray-500 flex flex-col sm:flex-row sm:items-center sm:justify-between space-y-2 sm:space-y-0">
+        <div>© D LEAGUE｜台南夢達七人足球聯賽 25/26</div>
+        <div>Powered by GitHub Pages · 設計由 AI 助理協作完成</div>
+      </div>
+    </footer>
+  </body>
+</html>
