@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #000;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.page {
+  display: none;
+  padding: 16px;
+}
+
+.page.active {
+  display: block;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  display: flex;
+}
+
+.navbar button {
+  flex: 1;
+  padding: 14px;
+  font-size: 14px;
+  background: #000;
+  color: white;
+  border: none;
+}
