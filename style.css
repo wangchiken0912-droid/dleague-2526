@@ -1,70 +1,76 @@
-body {
-  margin: 0;
-  background: #f7f7f7;
-  font-family: Arial, sans-serif;
+/* ======== Schedule Page ======== */
+
+.page-title {
+    margin: 30px 0;
+    font-size: 28px;
+    font-weight: 700;
+    border-left: 4px solid black;
+    padding-left: 10px;
 }
 
-header {
-  background: #000;
-  color: white;
-  padding: 16px;
-  text-align: center;
+.matchday-block {
+    margin-bottom: 40px;
 }
 
-.subtitle {
-  font-size: 12px;
-  opacity: 0.6;
+.matchday-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
 }
 
-.page {
-  display: none;
-  padding: 16px;
+.match-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #fff;
 }
 
-.page.active {
-  display: block;
+.teams {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 600;
 }
 
-.card {
-  background: #fff;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
-  border: 1px solid #ddd;
+.team {
+    width: 40%;
 }
 
-input, textarea {
-  width: 100%;
-  padding: 8px;
-  margin: 6px 0 12px 0;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+.score {
+    width: 20%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
 }
 
-button {
-  width: 100%;
-  padding: 10px;
-  background: black;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  margin-top: 10px;
+.meta {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #888;
+    display: flex;
+    gap: 8px;
 }
 
-.navbar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #000;
-  display: flex;
+.events {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
 }
 
-.navbar button {
-  flex: 1;
-  padding: 14px;
-  font-size: 14px;
-  background: #000;
-  color: white;
-  border: none;
+.event-row {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    padding: 2px 0;
+}
+
+.event-row.home .minute { color: #007bff; }
+.event-row.away .minute { color: #d9534f; }
+
+.minute {
+    font-weight: 700;
 }
